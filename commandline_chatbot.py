@@ -40,8 +40,8 @@ def main(
     
     #this is the starting/system prompt for the chatbot
     start_prompt_english = [
-        {"role": "user", "content": "Your name is AI-Bot. An AI chatbot trained on the WhatsApp chats of a magnificent human."},
-        {"role": "assistant", "content": "I will follow these commands. I will now start the conversation."},
+        {"role": "user", "content": "You are [put a name here]."},
+        {"role": "assistant", "content": "I am [the same name you put before]."},
         ]
     
     # default to german
